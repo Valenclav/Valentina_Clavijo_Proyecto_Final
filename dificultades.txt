@@ -1,0 +1,18 @@
+Dificultades encontradas y soluciones
+1. Conexión con la base de datos**
+Al principio tuve problemas para conectar PHP con MySQL. Lo solucioné revisando los datos de conexión y utilizando PDO.
+
+2. Registro e inicio de sesión**
+Tuve que corregir algunos errores en la validación de los datos y en la comprobación de las contraseñas. Para solucionarlo utilicé `password_hash()` y `password_verify()`.
+
+3. Permisos de usuario y administrador**
+Tuve que trabajar para que los usuarios comunes no pudieran ingresar a las páginas del administrador. Lo solucioné utilizando sesiones y con verificaciones.
+
+4. Administración de usuarios**
+También tuve que resolver algunos problemas al editar, archivar y reactivar cuentas. Fui probando las funciones hasta conseguir que funcionaran correctamente.
+
+5. Diseño de la página**
+Realicé modificaciones en los estilos CSS para mejorar la apariencia de las diferentes páginas.
+
+Conclusión
+Aunque encontré algunas dificultades, pude resolverlas probando, revisando el código y corrigiendo los errores. Este proyecto me ayudó a aprender más sobre PHP, MySQL y el desarrollo de páginas web.
